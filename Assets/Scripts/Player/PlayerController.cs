@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
         if (jumpForce <= 0)
         {
-            jumpForce = 400;
+            jumpForce = 370;
         }
 
         if (!GroundCheck)

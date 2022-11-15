@@ -8076,7 +8076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Kirby Super Star Ultra - Ability Enemies_379
+      name: Stars
       rect:
         serializedVersion: 2
         x: 881
@@ -17042,6 +17042,7 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_766: 1223457282
       DS DSi - Kirby Super Star Ultra - Ability Enemies_588: -2070606481
       DS DSi - Kirby Super Star Ultra - Ability Enemies_614: 1682285517
+      Stars: 972562367
       DS DSi - Kirby Super Star Ultra - Ability Enemies_406: 1361987316
       DS DSi - Kirby Super Star Ultra - Ability Enemies_528: 609897765
       DS DSi - Kirby Super Star Ultra - Ability Enemies_229: 714117937
@@ -17181,9 +17182,9 @@ TextureImporter:
       Enemydeath: 640607733
       DS DSi - Kirby Super Star Ultra - Ability Enemies_569: -1289371857
       DS DSi - Kirby Super Star Ultra - Ability Enemies_83: 1676709662
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_571: -1470110083
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_184: -1426113676
       DS DSi - Kirby Super Star Ultra - Ability Enemies_755: 1673402679
+      DS DSi - Kirby Super Star Ultra - Ability Enemies_184: -1426113676
+      DS DSi - Kirby Super Star Ultra - Ability Enemies_571: -1470110083
       DS DSi - Kirby Super Star Ultra - Ability Enemies_681: 900147908
       DS DSi - Kirby Super Star Ultra - Ability Enemies_286: 478803470
       DS DSi - Kirby Super Star Ultra - Ability Enemies_37: -269745538
@@ -17267,7 +17268,6 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_479: 480506499
       turret1: -19746432
       DS DSi - Kirby Super Star Ultra - Ability Enemies_776: -234066269
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_379: 972562367
       DS DSi - Kirby Super Star Ultra - Ability Enemies_128: -156258078
       DS DSi - Kirby Super Star Ultra - Ability Enemies_360: 623553212
       DS DSi - Kirby Super Star Ultra - Ability Enemies_269: -1430498641
