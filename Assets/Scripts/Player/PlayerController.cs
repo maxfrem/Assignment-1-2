@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpForce;
 
-    //grounc checking
+    //ground checking
     public bool isGrounded;
     public Transform GroundCheck;
     public LayerMask isgGroundLayer;
@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
         if (jumpForce <= 0)
         {
-            jumpForce = 350;
+            jumpForce = 400;
         }
 
         if (!GroundCheck)

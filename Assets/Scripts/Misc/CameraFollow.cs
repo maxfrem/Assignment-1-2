@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public Transform player;
+    public float minXClamp;
+    public float maxXClamp;
+   
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        
+        Vector3 cameraPosition;
+
+        cameraPosition = transform.position;
+        cameraPosition.x = Mathf.Clamp(player.transform.position.x, minXClamp, maxXClamp);
+
+        transform.position = cameraPosition;
     }
 }
