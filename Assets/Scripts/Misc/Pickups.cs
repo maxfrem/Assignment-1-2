@@ -9,6 +9,7 @@ public class Pickups : MonoBehaviour
     {
         Powerup = 0,
         Score = 2,
+        Life = 1,
     }
     public PickupType currentPickup;
 
@@ -20,12 +21,14 @@ public class Pickups : MonoBehaviour
             PlayerController curPlayer = collision.gameObject.GetComponent<PlayerController>();
             switch (currentPickup)
             {
+                //case PickupType.Life:
+                    //GameManager.instance.lives++;
                 case PickupType.Powerup:
                     curPlayer.StartJumpForceChange();
                     break;
                 case PickupType.Score:
                     Debug.Log("Score was picked up");
-                    break;
+                    break;  
             }
             
             Destroy(gameObject);

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - GroundCheck
+  - Squish
+  - Enemy
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX
@@ -41,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Play Area
+    uniqueID: 2175023939
     locked: 0

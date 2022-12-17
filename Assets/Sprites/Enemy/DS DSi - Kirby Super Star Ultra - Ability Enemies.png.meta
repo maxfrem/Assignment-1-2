@@ -2826,7 +2826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Kirby Super Star Ultra - Ability Enemies_129
+      name: Lives
       rect:
         serializedVersion: 2
         x: 733
@@ -8160,7 +8160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Kirby Super Star Ultra - Ability Enemies_383
+      name: Playerprojectile
       rect:
         serializedVersion: 2
         x: 1026
@@ -17239,6 +17239,7 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_674: 796592821
       DS DSi - Kirby Super Star Ultra - Ability Enemies_252: -738153243
       DS DSi - Kirby Super Star Ultra - Ability Enemies_264: 365694180
+      Lives: -802510567
       DS DSi - Kirby Super Star Ultra - Ability Enemies_396: -229345204
       DS DSi - Kirby Super Star Ultra - Ability Enemies_471: -1437385042
       DS DSi - Kirby Super Star Ultra - Ability Enemies_261: -985198904
@@ -17259,12 +17260,11 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_265: 735086306
       DS DSi - Kirby Super Star Ultra - Ability Enemies_254: -1446195523
       DS DSi - Kirby Super Star Ultra - Ability Enemies_719: 792546923
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_383: 1870045900
       DS DSi - Kirby Super Star Ultra - Ability Enemies_433: 1674652043
       DS DSi - Kirby Super Star Ultra - Ability Enemies_676: -1907031517
+      DS DSi - Kirby Super Star Ultra - Ability Enemies_684: 357206199
       DS DSi - Kirby Super Star Ultra - Ability Enemies_699: -1674093541
       DS DSi - Kirby Super Star Ultra - Ability Enemies_216: 1294940405
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_684: 357206199
       DS DSi - Kirby Super Star Ultra - Ability Enemies_479: 480506499
       turret1: -19746432
       DS DSi - Kirby Super Star Ultra - Ability Enemies_776: -234066269
@@ -17451,7 +17451,6 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_603: 1230033531
       DS DSi - Kirby Super Star Ultra - Ability Enemies_748: 1393615083
       DS DSi - Kirby Super Star Ultra - Ability Enemies_786: 1737929372
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_129: -802510567
       DS DSi - Kirby Super Star Ultra - Ability Enemies_489: -1610355399
       DS DSi - Kirby Super Star Ultra - Ability Enemies_662: 942885312
       DS DSi - Kirby Super Star Ultra - Ability Enemies_337: -998228360
@@ -17621,6 +17620,7 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_110: -940965198
       DS DSi - Kirby Super Star Ultra - Ability Enemies_171: 558705118
       DS DSi - Kirby Super Star Ultra - Ability Enemies_86: 158209102
+      Playerprojectile: 1870045900
       DS DSi - Kirby Super Star Ultra - Ability Enemies_364: 95082110
       DS DSi - Kirby Super Star Ultra - Ability Enemies_436: -1819797716
       DS DSi - Kirby Super Star Ultra - Ability Enemies_313: 29776529
