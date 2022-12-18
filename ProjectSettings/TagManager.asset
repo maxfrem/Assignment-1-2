@@ -8,6 +8,9 @@ TagManager:
   - Squish
   - Enemy
   - PlayerProjectile
+  - Wall
+  - Barrier
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX

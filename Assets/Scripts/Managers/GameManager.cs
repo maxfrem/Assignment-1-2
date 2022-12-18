@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     public PlayerController playerPrefab;
     [HideInInspector] public PlayerController playerInstance = null;
-    //[HideInInspector] public level currentLevel = null;
+    [HideInInspector] public Level currentLevel = null;
     [HideInInspector] public Transform currentSpawnPoint;
 
     public int lives
@@ -82,6 +81,6 @@ public class GameManager : MonoBehaviour
 
     void GameOver()
     {
-  
+        
     }
 }

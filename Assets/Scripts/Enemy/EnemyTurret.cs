@@ -31,22 +31,22 @@ public class EnemyTurret : Enemy
 
         if (currentClips[0].clip.name != "Fire")
         {
-            //if (GameManager.instance.playerInstance)
+            if (GameManager.instance.playerInstance)
             {
-                //sr.flipX = (GameManager.instance.playerInstance.transform.position.x < transform.position.x) ? true : false;
+                sr.flipX = (GameManager.instance.playerInstance.transform.position.x < transform.position.x) ? true : false;
             }
 
-            //float distance = Vector2.Distance(GameManager.instance.playerInstance.transform.position, transform.position);
+            float distance = Vector2.Distance(GameManager.instance.playerInstance.transform.position, transform.position);
+            
+            sr.color = (distance <= turretFireDistance) ? Color.red : Color.white;
 
-            //sr.color = (distance <= turretFireDistance) ? Color.red : Color.white;
-
-            //if (distance <= turretFireDistance && Time.time >= timeSinceLastFire + projectileFireRate)
+            if (distance <= turretFireDistance && Time.time >= timeSinceLastFire + projectileFireRate)
             {
-                anim.SetTrigger("Fire");
+                 anim.SetTrigger("Fire");
             }
-           
         }
-    }
+    }   
+    
 
     public override void Death()
     {
