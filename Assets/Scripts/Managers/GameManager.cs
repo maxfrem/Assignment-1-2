@@ -67,10 +67,10 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void SpawnPlayer(Transform spawnPoint)
+    public void SpawnPlayer(Transform SpawnPoint)
     {
-        playerInstance = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
-        currentSpawnPoint = spawnPoint;
+        playerInstance = Instantiate(playerPrefab, SpawnPoint.position, SpawnPoint.rotation);
+        currentSpawnPoint = SpawnPoint;
     }
 
     void Respawn()

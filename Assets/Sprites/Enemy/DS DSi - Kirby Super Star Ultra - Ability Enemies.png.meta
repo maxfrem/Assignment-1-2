@@ -8244,7 +8244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Kirby Super Star Ultra - Ability Enemies_387
+      name: Goal
       rect:
         serializedVersion: 2
         x: 1141
@@ -17254,6 +17254,7 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_478: -309128100
       DS DSi - Kirby Super Star Ultra - Ability Enemies_562: 1724267077
       DS DSi - Kirby Super Star Ultra - Ability Enemies_628: 740590979
+      Goal: 2004303579
       DS DSi - Kirby Super Star Ultra - Ability Enemies_340: 1099340995
       DS DSi - Kirby Super Star Ultra - Ability Enemies_653: 44451775
       DS DSi - Kirby Super Star Ultra - Ability Enemies_429: -649166595
@@ -17577,7 +17578,6 @@ TextureImporter:
       DS DSi - Kirby Super Star Ultra - Ability Enemies_343: -954609217
       DS DSi - Kirby Super Star Ultra - Ability Enemies_270: -1687186140
       DS DSi - Kirby Super Star Ultra - Ability Enemies_65: 1993596482
-      DS DSi - Kirby Super Star Ultra - Ability Enemies_387: 2004303579
       DS DSi - Kirby Super Star Ultra - Ability Enemies_139: -1527484203
       DS DSi - Kirby Super Star Ultra - Ability Enemies_298: -1485497570
       DS DSi - Kirby Super Star Ultra - Ability Enemies_583: -594203763

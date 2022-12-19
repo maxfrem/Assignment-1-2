@@ -70,8 +70,8 @@ public class PlayerController : MonoBehaviour
 
         if (jumpForce <= 0)
         {
-            jumpForce = 300;
-            Debug.Log("Jump Force Not Set - Default to 300");
+            jumpForce = 400;
+            Debug.Log("Jump Force Not Set - Default to 400");
         }
 
         if (!groundCheck)

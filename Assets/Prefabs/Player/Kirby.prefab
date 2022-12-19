@@ -76,7 +76,6 @@ GameObject:
   - component: {fileID: 4467373914204192437}
   - component: {fileID: 4467373914204192458}
   - component: {fileID: 4467373914204192433}
-  - component: {fileID: 4467373914204192435}
   - component: {fileID: 4467373914204192432}
   - component: {fileID: 8225784650630683528}
   - component: {fileID: -7127970072746086632}
@@ -175,8 +174,8 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &4467373914204192437
 BoxCollider2D:
@@ -247,20 +246,6 @@ MonoBehaviour:
   Jump: {fileID: 8300000, guid: b0aa318024018e0498132be3fa617ed6, type: 3}
   Spin: {fileID: 8300000, guid: 504f4d6e088ae0546be142b661109d67, type: 3}
   Squish: {fileID: 8300000, guid: e5880b04873963445af037d2d0e99bf3, type: 3}
---- !u!114 &4467373914204192435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4467373914204192459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22c02e71dabdba24d9fea8aacb44758d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifetime: 0
-  speed: 0
 --- !u!114 &4467373914204192432
 MonoBehaviour:
   m_ObjectHideFlags: 0

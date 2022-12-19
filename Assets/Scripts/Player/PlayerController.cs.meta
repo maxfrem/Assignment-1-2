@@ -3,7 +3,11 @@ guid: f2cc6ecfd99f6204fbfa55c0c1595b34
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - groundCheck: {instanceID: 0}
+  - Jump: {fileID: 8300000, guid: b0aa318024018e0498132be3fa617ed6, type: 3}
+  - Spin: {fileID: 8300000, guid: 504f4d6e088ae0546be142b661109d67, type: 3}
+  - Squish: {fileID: 8300000, guid: e5880b04873963445af037d2d0e99bf3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

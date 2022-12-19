@@ -6,18 +6,18 @@ using UnityEngine;
 public class Level : MonoBehaviour
 {
     public int StartingLives;
-    public Transform spawnPoint;
+    public Transform SpawnPoint;
 
     // Start is called before the first frame update
     void Start()
     {
         GameManager.instance.lives = StartingLives;
         GameManager.instance.currentLevel = this;
-        GameManager.instance.SpawnPlayer(spawnPoint);
+        GameManager.instance.SpawnPlayer(SpawnPoint);
     }
 
-    public void UpdateCheckpoint(Transform spawnPoint)
+    public void UpdateCheckpoint(Transform SpawnPoint)
     {
-        GameManager.instance.currentSpawnPoint = spawnPoint;
+        GameManager.instance.currentSpawnPoint = SpawnPoint;
     }
 }

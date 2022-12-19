@@ -38,6 +38,7 @@ public class Projectile : MonoBehaviour
             if(collision.gameObject.CompareTag("Player"))
             {
                 GameManager.instance.lives--;
+                Debug.Log("Whatever");
             }
         }
     }
